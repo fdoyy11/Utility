@@ -14,6 +14,7 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)event.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)spin_lock.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)threadsafe_queue.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)threadsafe_stack.h" />
